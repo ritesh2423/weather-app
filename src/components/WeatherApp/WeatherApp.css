@@ -1,0 +1,113 @@
+.Box{
+    width: 600px;
+    height: 900px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-image: linear-gradient(to right,#7568bd 0%, #32aa6c 100%);
+}
+.topbar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 60px;
+}
+.topbar input{
+    display: flex;
+    width: 362px;
+    height: 78px;
+    background: #b8d827;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #626262;
+    font-size: 25px;
+    font-weight: 400;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 78px;
+    background: #f06363;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.weather-image{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+}
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color:aliceblue;
+    font-size: 120px;
+    font-weight: 400;
+}
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 400;
+}
+.data-container{
+    margin-top: 50px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.element{
+    margin: auto;
+    display: flex;
+    align-items: self-start;
+    gap: 12px;
+}
+.data{
+    font-size: 34px;
+    font-weight: 400;
+}
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+.icon{
+    margin-top: 20px;
+}
+.feels_like{
+    display: flex;
+    justify-content: center;
+    color:aliceblue;
+    font-size: 30px;
+    font-weight: 400;
+}
+.minmax{
+    display: flex;
+    justify-content: center;
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+/* .pressure{
+    color: aliceblue;
+    font-size: 34px;
+    font-weight: 400;
+    margin: auto;
+    display: flex;
+    align-items: self-start;
+    gap: 12px;
+}
+.pressure-level{
+    color: aliceblue;
+    font-size: 34px;
+    font-weight: 400;
+    margin: auto;
+    display: flex;
+    align-items: self-start;
+    gap: 12px;
+} */
+
