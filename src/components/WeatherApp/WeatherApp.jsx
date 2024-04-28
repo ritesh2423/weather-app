@@ -8,7 +8,6 @@ import rain_icon from "../aassets/rain.png"
 import snow_icon from "../aassets/snow.png"
 import wind_icon from "../aassets/wind.png"
 import humidity_icon from "../aassets/humidity.png"
-import bac from "../aassets/bac.jpg"
 import pressure from "../aassets/pressure.png"
 
 export const WeatherApp = () => {
