@@ -1,10 +1,16 @@
+body{
+    /* background-color: rgb(9, 9, 9);  */
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right,#71cef0 0%, #1267b2 100%);
+} 
 .Box{
     width: 600px;
     height: 900px;
     margin: auto;
-    margin-top: 75px;
+    margin-top: 10px;
     border-radius: 12px;
-    background-image: linear-gradient(to right,#7568bd 0%, #32aa6c 100%);
+    background-image: linear-gradient(to right,#2e49ab 0%, #1281e2 100%);
 }
 .topbar{
     display: flex;
@@ -16,7 +22,7 @@
     display: flex;
     width: 362px;
     height: 78px;
-    background: #b8d827;
+    background: #81d830;
     border: none;
     outline: none;
     border-radius: 40px;
@@ -31,7 +37,7 @@
     align-items: center;
     width: 78px;
     height: 78px;
-    background: #f06363;
+    background: #81d830;
     border-radius: 40px;
     cursor: pointer;
 }

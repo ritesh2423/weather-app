@@ -13,6 +13,7 @@ import pressure from "../aassets/pressure.png"
 export const WeatherApp = () => {
   let api_key="6e5d6351c095272c22afbdad5ce11ef1";
 
+
   const [wicon,setwicon] = useState(cloud_icon);
   const search = async () =>{
     const element = document.getElementsByClassName("cityinput")
@@ -73,7 +74,7 @@ export const WeatherApp = () => {
   }
 
   return (
-  <div className="bac" style={{backgroundImage:`url${bac}`}}>
+  <div className="bac">
     <div className="Box">
       <div className="topbar">
         <input type='text' className='cityinput' placeholder="search"/>
